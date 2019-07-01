@@ -380,3 +380,19 @@ Si vous êtes chaud : [SEO WordPress : Guide du Référencement Naturel Détaill
 #### Sanitize :
 [What sanitize mean ?](https://medium.com/@abderrahman.hamila/what-sanitize-mean-and-why-sanitize-in-code-data-5c68c9f76164)
 
+# Mise en ligne site
+
+#### SSH :
+[Utiliser au mieux le SSH en comprenant son fonctionnement](https://www.hostinger.fr/tutoriels/ssh-linux/)
+
+#### FTP / sFTP :
+
+
+#### SCP :
+
+
+#### .htaccess :
+[Concevez votre site web avec PHP et MySQL](https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/918580-protegez-un-dossier-avec-un-htaccess)
+
+[Htaccess](https://fr.ryte.com/wiki/Htaccess)
+
