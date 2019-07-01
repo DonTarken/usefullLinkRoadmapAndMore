@@ -373,5 +373,10 @@ Si vous êtes chaud : [SEO WordPress : Guide du Référencement Naturel Détaill
 
 [Pour arrêter de galérer avec Git](https://www.miximum.fr/blog/enfin-comprendre-git/)
 
+#### Stack
+    LAMP : Linux Apache MySQL PHP
+    MEAN : MongoDB Express/KOA Angular NodeJS
 
+#### Sanitize :
+[What sanitize mean ?](https://medium.com/@abderrahman.hamila/what-sanitize-mean-and-why-sanitize-in-code-data-5c68c9f76164)
 
