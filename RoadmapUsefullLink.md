@@ -61,7 +61,7 @@ Si vous êtes chaud : [SEO WordPress : Guide du Référencement Naturel Détaill
 
 [Récupérer des données du serveur](https://developer.mozilla.org/fr/docs/Apprendre/JavaScript/Client-side_web_APIs/Fetching_data)
 
-### ES6+ and mocular Javascript :
+### ES6+ and modular Javascript :
 
 [ES6 - Environment](https://www.tutorialspoint.com/es6/es6_environment.htm)
 
@@ -121,7 +121,8 @@ Si vous êtes chaud : [SEO WordPress : Guide du Référencement Naturel Détaill
 [Bonnes pratiques en CSS : BEM et OOCSS](https://www.alsacreations.com/article/lire/1641-BonnespratiquesenCSSBEMetOOCSS.html)
 
 [Méthodologie BEM pour le CSS](https://www.alticreation.com/bem-pour-le-css/)
-### OOCSS
+### OOCSS :
+[Introduction OOCSS](https://www.nicoespeon.com/fr/2013/05/plongee-au-coeur-de-oocss/)
 ### SMACSS
 
 # Build Tools
