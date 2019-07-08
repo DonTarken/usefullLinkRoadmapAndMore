@@ -177,9 +177,55 @@ On parle alors de :
     client FTP
 
 -SCP
-
+---
 # Divers définition
 
 [Définitions du développement web : 40 termes à connaître](https://www.blogdumoderateur.com/definition-developpement-web/)
 
 [Site statique ou dynamique](http://www.morphemzero.be/sujets/site-statique-dynamique/)
+---
+# Wordpress
+
+## Thème enfant :
+
+C'est quoi : Un thème enfant est un thème basé sur le thème parent. Il en reprend toutes les fonctionnalités sans jamais le modifier.
+
+Tout fichier placé dans le thème enfant et protant le même nom que dans le thème parent, prendra le dessus et écrasera le fichier d'origine (sauf le funcitons.php)
+
+Création thème enfant ;
+
+    - Thème parent (non activé)
+    - Créer dossier thème enfant dans "/wp-content/themes/nomduthemeenfant"
+    -   2 fichiers :
+        1. un ficier functions.php :
+
+            <?php
+            /**
+            ** activation theme
+            **/
+            add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
+            function theme_enqueue_styles() {
+            wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
+            }
+
+        2. un fichier style.css :
+
+            /*
+            Theme Name: Theme enfant
+            Description: Theme enfant de Benoit WPServeur
+            Author: Benoit - WPserveur
+            Author URI: https://www.wpserveur.net
+            Template: WPServeur
+            Version: 0.1.0
+            */
+
+## multilingue
+
+1. Installer des plugins
+2. Utiliser les fichier .pot, .po et .mo :
+    Ces fichiers po et mo renferment les texte qui sont affichés au sein du thème.
+
+    .po éditable avec un logiciel notemment -> Poedit, afin de traduire les textes.
+    .mo est une version compressée du fichier .po qui sera utilisée par WordPress pour remplacer les textes originaux
+
+    .pot permet de générer un fichier .po
