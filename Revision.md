@@ -12,7 +12,7 @@
     Permet d'utiliser le langage JavaScript sur le serveur et donc de faire du JavaScript en dehors du navigateur.
 
 ## NPM
-    Node Package Module
+    Node Package Manager
         -Gestionnaire de paquets
         -Gère les dépendances -> si un module a besoin d'ujn autre module pour fonctionner, NPM ira le télécharger automatiquement.
 ---
